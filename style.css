@@ -1,0 +1,79 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.container {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  width: 90%;
+  max-width: 500px;
+  margin-top: 50px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #ff6f61;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+input, button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+input {
+  flex: 1;
+  background: #f0f0f0;
+}
+
+button {
+  background: #ff6f61;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e0554c;
+}
+
+#food-list {
+  list-style: none;
+  padding: 0;
+}
+
+#food-list li {
+  background: #ffe6e6;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#reset-btn {
+  background: #999;
+  margin-top: 10px;
+}
